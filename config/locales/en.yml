@@ -1,146 +1,33 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
 en:
-  activate: "Activate"
-  base_title_page: "Phone ecommerce"
-  login: "Login"
-  home: "Home"
-  header:
-    my_account: "My Account"
-    wishlist: "Wishlist"
-    my_cart: " My Cart"
-    checkout: "Checkout"
-    language: "Language"
-    english: "English"
-    vietnamese: "Vietnamese"
-    cart: "Cart"
-    shop_page: "Shop page"
-    product: "Product"
-    category: "Category"
-    contact: "Contact"
-  footer:
-    name_shop: "Stora"
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis magni at?"
-    user_navigation: "User Navigation"
-    my_account: "My account"
-    order_history: "Order history"
-    vendor_contact: "Vendor contact"
-    front_page: "Front page"
-    categories: "Categories"
-    mobile_phone: "Mobile Phone"
-    home_accesseries: "Home accesseries"
-    led_tv: "LED TV"
-    computer: "Computer"
-    gadets: "Gadets"
-    newsletter: "Newsletter"
-    sign_in_to_out: "Sign up to our newsletter and get exclusive deals you wont find anywhere else straight to your inbox!"
-    type_your_email: "Type your email"
-    subscribe: "Subscribe"
-    copy_right: "&copy; 2015 uCommerce. All Rights Reserved."
-  signup: "Sign up"
-  invalid_activation_link: "Invalid activation link!"
-  account_activated: "Account activated!"
-  account_activation: "Account activation"
-  reset_email_sent: "Check your email to reset password!"
-  email_not_found: "Email not found"
-  not_empty: "must not be empty"
-  password_reset:
-    title: "Password reset"
-    done: "Password reset successfully"
-    expire: "Password reset link has expired"
-    link: "Click this link to reset password"
-  user_not_valid: "User not valid"
-  account_not_activated: "Account hasn't been activated"
-  invalid_info: "Invalid info"
-  check_email: "Check your email to activate account!"
-  profile_updated: "Profile updated"
-  user_deleted: "User deleted"
-  user_delete_failed: "User delete failed"
-  please_log_in: "Please log in"
-  update_password: "Update password"
-  forgot_password: "Forgot password"
-  remember_computer: "Remember this computer"
-  sign_up_now: "Sign up now"
-  form_contain: "Form contain"
-  create_account: "Create an Account!"
-  have_account: "Already have an account? Login!"
-  invalid_email: "Invalid email"
-  error: "Some errors has expired"
-  click_link_to_activate: "Click this link to activate account"
-  user_created: "User created"
-  welcome_back: "Welcome Back!"
-  hi: "Hi"
-  please_log_in: "Please log in."
-  products:
-    index:
-      all: "All"
-      less: "Less than"
-      more: "More than"
-      million: "million"
-      search: "Search"
-      search_products: "Search products..."
-      filter: "Filter"
-      company: "Company"
-      memory_capacity: "Memory capacity"
-      color: "Color"
-      price: "Price"
-      add_to_card: "Add to cart"
-      currency_unit_front: "$"
-      currency_unit_back: ""
-    show:
-      invalid_address: "Invalid address"
-      add_to_cart: "Add to card"
-      add_to_cart_success: "Add to card successfully"
-      add_to_cart_failed: "Add to card failed"
-      product_detail: "Product Detail"
-      color: "Color"
-      capacity: "Capacity"
-      screen: "Screen"
-      system: "System"
-      rear_camera: "Read camera"
-      front_camera: "Front camera"
-      ram: "RAM"
-      cpu: "CPU"
-      sim: "SIM"
-      desc: "Description"
-      rating: "Rating"
-      complete_danger: "Complete (danger)"
-      title_comments: "Comments"
-      comments: "comments"
-      reviews: "Reviews"
-      your_review: "Your review"
-      related_products: "Related Products"
-      submit: "Submit"
-      reviewers: "reviewers"
-      delete: "Delete"
-      are_you_sure: "Are you sure!"
-      your_rating: "Your rating"
-  comments:
-    success_add_comment: "Add comment successfully"
-    fail_comment: "Comment processing failed"
-    success_vote: "More successful votes"
-    failed_vote: "More votes failed"
-    destroy:
-      deleted_success: "Comment deleted successfully"
-  edit_user: "Edit profile"
-  static_pages:
-    home:
-      name: "Home"
-      add_to_card: "Add to cart"
-      see_detail: "See details"
-      product_sample: "iPhone 6 Plus"
-      dual_sim: "Dual SIM"
-      shop_now: "Shop now"
-      day_return: "30 Days return"
-      free_shipping: "Free shipping"
-      secure_payments: "Secure payments"
-      new_product: "New products"
-      top_sellers_product: "Top Sellers Product"
-      top_sellers: "Top Sellers"
-      view_all: "View All"
-      top_rating: "Top Rating"
-      top_new: "Top New"
-  order:
-    success: "Order successfully"
-    title: "Order"
-  click_login: "Click here to login"
-  billing_details: "Billing details"
-  login_to_order: "Please login before order!"
+  hello: "Hello world"
