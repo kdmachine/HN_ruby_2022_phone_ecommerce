@@ -1,5 +1,5 @@
 {
-  "name": "hn-ruby-2022-phone-ecommerce",
+  "name": "ruby-fesher-2021-library-manager",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
